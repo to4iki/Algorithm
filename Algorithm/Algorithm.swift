@@ -7,6 +7,25 @@
 //
 
 /**
+FizzBuzz
+*/
+public func fizzbuzz(size: Int) -> [String] {
+    func exec(n: Int) -> String {
+        if n % 15 == 0 {
+            return "FizzBuzz"
+        } else if n % 5 == 0 {
+            return "Buzz"
+        } else if n % 3 == 0 {
+            return "Fizz"
+        } else {
+            return String(n)
+        }
+    }
+    
+    return Array(1...size).map { exec($0) }
+}
+
+/**
 ユークリッドの互除法
 */
 public func euclidGCD(x: Int, y: Int) -> Int {
