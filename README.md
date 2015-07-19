@@ -17,7 +17,9 @@ TODO
 - [フィボナッチ数 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A3%E3%83%9C%E3%83%8A%E3%83%83%E3%83%81%E6%95%B0)
 - [ユークリッドの互除法 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%83%E3%83%89%E3%81%AE%E4%BA%92%E9%99%A4%E6%B3%95)
 - [エラトステネスの篩 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%A9%E3%83%88%E3%82%B9%E3%83%86%E3%83%8D%E3%82%B9%E3%81%AE%E7%AF%A9)
+- [ピタゴラスの定理 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%BF%E3%82%B4%E3%83%A9%E3%82%B9%E3%81%AE%E5%AE%9A%E7%90%86)
 - [階乗 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%9A%8E%E4%B9%97)
+- [1時間以内に解けなければプログラマ失格となってしまう5つの問題が話題に](http://www.softantenna.com/wp/software/5-programming-problems/)
 - Search
     - [線型探索 - Wikipedia](https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%9E%8B%E6%8E%A2%E7%B4%A2)
     - [二分探索 - Wikipedia](https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%88%86%E6%8E%A2%E7%B4%A2)
