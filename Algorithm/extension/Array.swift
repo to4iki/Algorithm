@@ -11,11 +11,21 @@ extension Array {
         return (count > 0) ? (self[0], Array(self[1..<count])) : nil
     }
     
-    var decomposeToLast: (heads: [T], last: T)? {
+    var decomposeToLast: (inits: [T], last: T)? {
         if let last = last {
             return (Array(self[0..<count-1]), last)
         } else {
             return nil
+        }
+    }
+    
+    func flatten() -> [T] {
+        return reduce([]) { (r: [T], x: T) -> [T] in
+            if let xs = x as? [T] {
+                return r + xs.flatten()
+            } else {
+                return r + [x]
+            }
         }
     }
     
@@ -35,8 +45,8 @@ extension Array {
     
     func product(xss: [T]...) -> [[T]] {
         return self.flatMap { x in
-            if let (heads, last) = xss.decomposeToLast {
-                return heads.flatMap { ys in
+            if let (inits, last) = xss.decomposeToLast {
+                return inits.flatMap { ys in
                     ys.flatMap { y in
                         last.map { z in
                             [x,y,z]

@@ -18,6 +18,7 @@ TODO
 - [ユークリッドの互除法 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%83%E3%83%89%E3%81%AE%E4%BA%92%E9%99%A4%E6%B3%95)
 - [エラトステネスの篩 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%A9%E3%83%88%E3%82%B9%E3%83%86%E3%83%8D%E3%82%B9%E3%81%AE%E7%AF%A9)
 - [ピタゴラスの定理 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%BF%E3%82%B4%E3%83%A9%E3%82%B9%E3%81%AE%E5%AE%9A%E7%90%86)
+- [ハノイの塔 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%8E%E3%82%A4%E3%81%AE%E5%A1%94)
 - [階乗 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%9A%8E%E4%B9%97)
 - [1時間以内に解けなければプログラマ失格となってしまう5つの問題が話題に](http://www.softantenna.com/wp/software/5-programming-problems/)
 - Search

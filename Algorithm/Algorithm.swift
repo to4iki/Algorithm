@@ -52,9 +52,16 @@ func factorial(n: Int, acc: Int = 1) -> Int {
 }
 
 /**
+ハノイの塔
+*/
+public func hanoi(n: Int) -> Int {
+    return hanoi(n-1) + 1 + hanoi(n-1)
+}
+
+/**
 ピタゴラスの定理
 */
-func pythagoreanTriples(n: Int) -> [[Int]] {
+public func pythagoreanTriples(n: Int) -> [[Int]] {
     return Array(1...n).flatMap { z in
         Array(1...z).flatMap { x in
             Array(x...z).filter({ y in x**2 + y**2 == z**2 }).map {

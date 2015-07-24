@@ -22,7 +22,7 @@ private func memoize<T: Hashable, U>(block: (T -> U, T) -> U) -> T -> U {
 }
 
 /// フィボナッチ数列(メモ化)
-public let fizMemo = memoize { (fib: Int -> Int, val: Int) -> Int in
+public let fibMemo = memoize { (fib: Int -> Int, val: Int) -> Int in
     return val < 2 ? val : fib(val - 1) + fib(val - 2)
 }
 
